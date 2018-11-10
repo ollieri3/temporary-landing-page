@@ -1,0 +1,23 @@
+{
+  "name": "temporary-landing-page",
+  "version": "1.0.0",
+  "description": "--- A simple landing page for [olivers.cloud](https://olivers.cloud), Includes links to Github and social media accounts.",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server ./src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ollieri3/temporary-landing-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ollieri3/temporary-landing-page/issues"
+  },
+  "homepage": "https://github.com/ollieri3/temporary-landing-page#readme",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}

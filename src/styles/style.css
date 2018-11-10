@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+ 
+html, body {
+    height: 100%;
+    max-height: 100%;
+    overflow: hidden;
+}
+
+body {
+    color: #fff;
+    font-family: Avenir, Nunito, Arial, Helvetica, sans-serif;
+    background: linear-gradient(#1976d2, #9c27b0); 
+}
+
+.underline {
+    text-decoration: underline;
+    /* box-shadow: inset 0 -5px 0 0 #81aaea */
+}
+
+.introduction {
+    margin: auto;
+    margin-top: 10vh;
+    max-width: 85%;
+}
+
+.introduction__title {
+    margin-bottom: 0;
+}
+
+.introduction__supporting {
+    margin-top: 10px;
+}
+
+.headshot {
+    margin: 0;
+}
+
+.headshot__image {
+    height: 100px;
+    border-radius: 5px;
+    width: auto;
+}
+
+.section-rule {
+    max-width: 70%;
+    margin: 3em auto;
+    color: #fff;
+}
